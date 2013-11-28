@@ -7,8 +7,9 @@
 # instructions:
 # 1.install pySerial [https://pypi.python.org/pypi/pyserial]
 # 2.connect arduino
-# 3.python arduino.py
-# 4.open http://intense-eyrie-9186.herokuapp.com
+# 3.edit config variables [baud rate, device path]
+# 4.python arduino.py
+# 5.open http://intense-eyrie-9186.herokuapp.com
 
 
 #==========
@@ -27,7 +28,7 @@ from websocket import create_connection
 #============
 
 webSocketURL = 'ws://intense-eyrie-9186.herokuapp.com'
-webSocketDelay = 0.2
+webSocketDelay = 0.8 # 800 ms delay
 arduinoDevice = '/dev/cu.usbserial-A7007btz'
 arduinoBaud = 9600
 
