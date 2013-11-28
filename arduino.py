@@ -2,8 +2,14 @@
 # serial to websocket
 # http://manticore.deadmediafm.org
 #
-# dependencies: websocket-client, pySerial
+# dependencies: websocket-client [included] , pySerial [manual install]
 #
+# instructions:
+# 1.install pySerial [https://pypi.python.org/pypi/pyserial]
+# 2.connect arduino
+# 3.python arduino.py
+# 4.open http://intense-eyrie-9186.herokuapp.com
+
 
 #==========
 # libraries
